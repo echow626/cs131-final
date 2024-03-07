@@ -1,16 +1,20 @@
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+import tensorflow as tf
 from hog import *
 
+image_height = 10
+image_width = 10
+num_channels = 3
+
+feature_length = None  # determine this from hog
 # Define the CNN architecture
-model = Sequential([
-    Conv2D(32, (3, 3), activation='relu', input_shape=(image_height, image_width, num_channels)),
-    MaxPooling2D((2, 2)),
-    Conv2D(64, (3, 3), activation='relu'),
-    MaxPooling2D((2, 2)),
-    Flatten(),
-    Dense(128, activation='relu'),
-    Dense(16)  # Output layer for 16 coordinates
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(feature_length,)),
+    tf.keras.layers.MaxPooling2D((2, 2)),
+    tf.keras.layers.Conv2D(64, (3, 3), activation='relu'),
+    tf.keras.layers.MaxPooling2D((2, 2)),
+    tf.keras.layers.Flatten(),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(32)  # Output layer for 16 coordinates (2D)
 ])
 
 # Compile the model
