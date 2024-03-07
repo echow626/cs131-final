@@ -13,34 +13,21 @@ import time
 import warnings
 warnings.filterwarnings('ignore')
 
-def hog_feature(image, pixel_per_cell=8):
-    """
-    Compute hog feature for a given image.
+def hog_feature(image_path, pixel_per_cell=8):
+    # hog_feature, hog_image = feature.hog(image, pixels_per_cell=(pixel_per_cell, pixel_per_cell), block_norm='L1', visualize='True', feature_vector='True', transform_sqrt='True')
+    # return hog_feature, hog_image
+    image = io.imread(image_path, as_gray=True)
+    hog_feature = feature.hog(image, pixels_per_cell=(pixel_per_cell, pixel_per_cell), block_norm='L1', feature_vector='True', transform_sqrt='True')
+    return hog_feature
 
-    Important:
-    - Use the hog function provided by skimage to generate both the
-      feature vector and the visualization image.
-    - For the block normalization parameter, use L1!
+# def process_image(image_path='008963454_copy.jpg'):
+	# image = io.imread(image_path, as_gray=True)
+    # return hog_feature(image)
+	# hog_image_rescaled = exposure.rescale_intensity(hog_img, in_range=(0, 0.02))
+	# print(hog_ft)
+	# print(hog_ft.shape)
+	# plt.imshow(hog_image_rescaled)
+	# plt.show()
+    
 
-    Args:
-        image: an image with object that we want to detect.
-        pixel_per_cell: number of pixels in each cell, an argument for hog descriptor.
-
-    Returns:
-        hog_feature: a vector of hog representation.
-        hog_image: an image representation of hog provided by skimage.
-    """
-    ### YOUR CODE HERE
-    hog_feature, hog_image = feature.hog(image, pixels_per_cell=(pixel_per_cell, pixel_per_cell), block_norm='L1', visualize='True', feature_vector='True', transform_sqrt='True')
-    ### END YOUR CODE
-    return hog_feature, hog_image
-
-def process_image(image_path='008963454_copy.jpg'):
-	image = io.imread(image_path, as_gray=True)
-	hog_ft, hog_img = hog_feature(image)
-	print(hog_ft)
-	print(hog_ft.shape)
-	plt.imshow(hog_img)
-	plt.show()
-
-process_image('063271031_copy.jpg')
+# process_image('063271031_copy.jpg')
