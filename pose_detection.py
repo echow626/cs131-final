@@ -77,4 +77,4 @@ def model():
     # Make predictions
     # predictions = model.predict(X_new_images)
 
-load_data()
+# load_data()x
