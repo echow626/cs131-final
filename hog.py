@@ -29,4 +29,4 @@ def process_image(image_path='008963454_copy.jpg'):
 	plt.imshow(hog_image_rescaled)
 	plt.show()
 
-process_image('082062225_copy.jpg')
+# process_image('008963454_copy.jpg')
