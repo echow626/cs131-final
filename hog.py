@@ -22,11 +22,11 @@ def hog_feature(image_path):
 def process_image(image_path='008963454_copy.jpg'):
 	image = io.imread(image_path, as_gray=True)
 	pixel_per_cell = min(image.shape[0]/25, image.shape[1]/25)
-	hog_ft, hog_img = feature.hog(image, pixels_per_cell=(pixel_per_cell, pixel_per_cell), block_norm='L1', visualize='True', feature_vector='True', transform_sqrt='True')
+	hog_ft, hog_img = feature.hog(image, pixels_per_cell=(pixel_per_cell, pixel_per_cell), block_norm='L1', visualize='True', feature_vector='False', transform_sqrt='True')
 	print(hog_ft)
 	print(hog_ft.shape)
 	hog_image_rescaled = exposure.rescale_intensity(hog_img, in_range=(0, 0.02))
 	plt.imshow(hog_image_rescaled)
 	plt.show()
 
-# process_image('008963454_copy.jpg')
+process_image('008963454_copy.jpg')
