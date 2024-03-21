@@ -1,6 +1,5 @@
 images/
-tf_data/
-resized_images/
-processed_data/
+archive/resized_images/
+archive/processed_data/
 models/
 models.zip
