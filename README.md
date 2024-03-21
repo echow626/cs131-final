@@ -1,7 +1,9 @@
 # cs131-final
 
-![](https://github.com/echow626/cs131-final/blob/main/gifs/alyssa.gif) ![](https://github.com/echow626/cs131-final/blob/main/gifs/chuyi.gif) ![](https://github.com/echow626/cs131-final/blob/main/gifs/elisse.gif)
 
+Alyssa Grand Jete          |  Chuyi Arabesque          |   Elisse Arabesque
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/echow626/cs131-final/blob/main/gifs/alyssa.gif)  |  ![](https://github.com/echow626/cs131-final/blob/main/gifs/chuyi.gif) | ![](https://github.com/echow626/cs131-final/blob/main/gifs/elisse.gif)
 
 [Google Drive](https://drive.google.com/drive/folders/107MIEJkrakvlAM3cyD9mJ3sgYNzF0Z98?usp=sharing) with some of the intermediate results and data used
 
