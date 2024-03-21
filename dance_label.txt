@@ -296,7 +296,7 @@ BridgetWilde_26.jpg 0
 BridgetWilde_27.jpg 0
 BridgetWilde_28.jpg 1
 BridgetWilde_29.jpg 1
-BridgetWilde_30.jpg 0
+BridgetWilde_30.jpg 1
 BridgetWilde_31.jpg 0
 BridgetWilde_32.jpg 0
 BridgetWilde_33.jpg 0
@@ -2365,11 +2365,11 @@ Arabesque_2.jpg 0
 Arabesque_3.jpg 0
 Arabesque_4.jpg 0
 Arabesque_5.jpg 0
-Arabesque_6.jpg 0
-Arabesque_7.jpg 0
-Arabesque_8.jpg 0
-Arabesque_9.jpg 0
-Arabesque_10.jpg 0
+Arabesque_6.jpg 2
+Arabesque_7.jpg 2
+Arabesque_8.jpg 2
+Arabesque_9.jpg 2
+Arabesque_10.jpg 2
 Arabesque_11.jpg 2
 Arabesque_12.jpg 2
 Arabesque_13.jpg 2
