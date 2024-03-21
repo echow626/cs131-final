@@ -1,7 +1,7 @@
 # cs131-final
 
 
-Alyssa Grand Jete          |  Chuyi Arabesque          |   Elisse Arabesque
+Alyssa Grand Jete          |  Chuyi Arabesque          |   Elisse Grand Jete
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/echow626/cs131-final/blob/main/gifs/alyssa.gif)  |  ![](https://github.com/echow626/cs131-final/blob/main/gifs/chuyi.gif) | ![](https://github.com/echow626/cs131-final/blob/main/gifs/elisse.gif)
 
