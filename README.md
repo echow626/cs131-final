@@ -40,5 +40,6 @@ Code Files:
 * `dance_preprocess.ipynb`: Dance images preprocessing
 
 Other Single Data Files:
+* `dance_data.json`: Our dataset annotations in JSON form. Contains the image name, classification, joint coordinates, and link to the YouTube video we retrieved the image from.
 * `dance_label.txt`: Text file mapping Dance Dataset image frames to movement classifier
 * `mpii_human_pose.csv`: CSV version of MPII Annotations sourced from [Kaggle](https://www.kaggle.com/datasets/nicolehoelzl/mpii-human-pose-data/data), includes category and activity labels 
