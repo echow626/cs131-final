@@ -1,0 +1,2 @@
+model_checkpoint_path: "MovementClassifier"
+all_model_checkpoint_paths: "MovementClassifier"
