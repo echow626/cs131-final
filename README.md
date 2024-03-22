@@ -29,7 +29,7 @@ Alyssa Grand Jeté          |  Chuyi Arabesque          |   Elisse Grand Jeté
     * EricPoor - https://www.youtube.com/watch?v=lRsLP9sadG8
     * JoakimVisnes - https://www.youtube.com/watch?v=boNHS6qClqY
     * Arabesque - https://www.youtube.com/watch?v=E9EVPDiW4uM
-* `dance_predictions`: Short videos of us and our friends processed through the OpenPose Colab
+* `dance_predictions`: Image frames from videos of us and our friends processed through the OpenPose Colab
 * `json_data`: Json version of the MPII Human Dataset annotations sourced from [this tutorial](https://github.com/ilovepose/fast-human-pose-estimation.pytorch)'
 * `openpose_json`, `openpose_output`: Dance dataset processed through the OpenPose Colab. Kept separate from `dance_predictions` on purpose.
 * `plots`: Some of the plots created for our paper
